@@ -6,7 +6,7 @@
 * Description: using the main function
 * The program "will assign a random number to the variable n"
 * Return: 0
-*/ 
+*/
 int main(void)
 {
 int n;
