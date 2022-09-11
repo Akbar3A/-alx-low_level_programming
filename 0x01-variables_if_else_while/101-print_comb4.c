@@ -5,6 +5,8 @@
  */
 int main(void)
 {
+	int main(void)
+{
 	int count = 0;
 	int nxx;
 	int nxy;
@@ -12,11 +14,11 @@ int main(void)
 
 	while (count <= 999)
 	{
-		 nxx = (count / 100 + '0');
-		 nxy = (count / 10 % 10 + '0');
-		 nxz = (count % 10 + '0');
+		nxx = (count / 100 + '0');
+		nxy = (count / 10 % 10 + '0');
+		nxz = (count % 10 + '0');
 
-		if ((nxx <  nxy) && (nxy < nxz))
+		if ((nxx < nxy) && (nxy < nxz))
 		{
 			putchar(nxx);
 			putchar(nxy);
