@@ -13,8 +13,8 @@ int main(void)
 int nm;
 
 srand(time(0));
-n = rand() - RAND_MAX / 2;
-  /* your code goes there */
+nm = rand() - RAND_MAX / 2;
+
 if (nm > 0)
 {
 	printf("%i is positive\n", nm);
