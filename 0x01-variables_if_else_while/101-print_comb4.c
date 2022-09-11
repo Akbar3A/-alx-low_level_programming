@@ -6,21 +6,21 @@
 int main(void)
 {
 	int count = 0;
-	int f_d;
-	int m_d;
-	int l_d;
+	int xx;
+	int xy;
+	int xz;
 
 	while (count <= 999)
 	{
-		f_d = (count / 100 + '0');
-		m_d = (count / 10 % 10 + '0');
-		l_d = (count % 10 + '0');
+		 xx = (count / 100 + '0');
+		 xy = (count / 10 % 10 + '0');
+		 xz = (count % 10 + '0');
 
-		if ((f_d < m_d) && (m_d < l_d))
+		if ((xx < xy) && (xy < xz))
 		{
-			putchar(f_d);
-			putchar(m_d);
-			putchar(l_d);
+			putchar(xx);
+			putchar(xy);
+			putchar(xz);
 
 			if (count != 789)
 			{
