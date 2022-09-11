@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 /**
-* main - print if the number is postive, zero, or negative
+* main - will assign a random number to the variable n each time it is executed
 * Description: using the main function
-* this program prints "Programming is positive, zero, or negative
+* The program "will assign a random number to the variable n"
 * Return: 0
 */ 
 int main(void)
