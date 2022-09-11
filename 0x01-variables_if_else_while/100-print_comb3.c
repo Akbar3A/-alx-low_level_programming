@@ -11,8 +11,8 @@ int main(void)
 
 	while (count <= 99)
 	{
-	          d = (count / 10 + '0');
-		  e = (count % 10 + '0');
+	            d = (count / 10 + '0');
+		    e = (count % 10 + '0');
 
 		if (d < e)
 		{
