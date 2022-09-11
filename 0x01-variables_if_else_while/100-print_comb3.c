@@ -5,27 +5,27 @@
  */
 int main(void)
 {
-	int count = 0;
-	int d;
-	int e;
+	int c = 0;
+	int f_d;
+	int l_d;
 
-	while (count <= 99)
+	while (c <= 99)
 	{
-	            d = (count / 10 + '0');
-		    e = (count % 10 + '0');
+		f_d = (c / 10 + '0');
+		l_d = (c % 10 + '0');
 
-		if (d < e)
+		if (f_d < l_d)
 		{
-			putchar(d);
-			putchar(e);
+			putchar(f_d);
+			putchar(l_d);
 
-			if (count != 89)
+			if (c != 89)
 			{
 				putchar(',');
 				putchar(' ');
 			}
 		}
-		count++;
+		c++;
 	}
 putchar('\n');
 return (0);
