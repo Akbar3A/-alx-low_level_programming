@@ -2,11 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-
 /**
- * This program will assign a random number to the variable n each time it is executed. 
- * Complete the source code in order to print the last digit of the number stored in the variable n.
-*/
+* main - print if the number is postive, zero, or negative
+*
+* Description: using the main function
+* this program prints "Programming is positive, zero, or negative
+* Return: 0
+*/ 
 int main(void)
 {
 int n;
