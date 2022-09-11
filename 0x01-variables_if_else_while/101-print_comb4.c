@@ -16,7 +16,7 @@ int main(void)
 		 xy = (count / 10 % 10 + '0');
 		 xz = (count % 10 + '0');
 
-		if ((xx < xy) && (xy < xz))
+		if (( xx <  xy) && ( xy <  xz))
 		{
 			putchar(xx);
 			putchar(xy);
